@@ -28,13 +28,13 @@ Mejor accuracy obtenido: 90.67%
 
 | Clase | Precision | Recall | F1-Score |
 | :--- | :---: | :---: | :---: |
-| **Dragon** | 0.XX | 0.XX | 0.XX |
-| **Fairy** | 0.XX | 0.XX | 0.XX |
-| **Fighting** | 0.XX | 0.XX | 0.XX |
-| **Ghost** | 0.XX | 0.XX | 0.XX |
-| **Ice** | 0.XX | 0.XX | 0.XX |
-| **Rock** | 0.XX | 0.XX | 0.XX |
-| **Promedio** | **0.XX** | **0.XX** | **0.91** |
+| **Dragon** | 1.00 | 0.91 | 0.95 |
+| **Fairy** | 1.00 | 0.97 | 0.99 |
+| **Fighting** | 0.85 | 0.88 | 0.86 |
+| **Ghost** | 1.00 | 0.96 | 0.98 |
+| **Ice** | 0.85 | 0.87 | 0.86 |
+| **Rock** | 0.89 | 0.90 | 0.90 |
+| **Promedio** | **0.93** | **0.92** | **0.91** |
 
 ## **Análisis de errores**
 El modelo presenta una precisión alta, pero puede confundirse entre clases con características visuales similares, como los colores vibrantes en tipos Fairy y Dragon. También influyen los fondos complejos en imágenes que no son oficiales.
