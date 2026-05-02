@@ -11,12 +11,17 @@ Escogi este tema porque es uno  de mis animes favoritos y siento que si bien est
 
 Por lo cual estimo que este proyecto me ha permitido entender como podemos clasificar y entrenar a un modelo para que detecte y reconozca objetos, animales, plantas, etc.
 
+Comparto un pequeno proyecto que realice hace un tiempo siempre sobre Pokemon https://basic-pokedex.vercel.app
+
 ## Dataset
 - Total de imagenes: 1510
     - 1210 imágenes en el primer grupo (entrenamiento).
     - 300 imágenes en el segundo grupo (validacion o prueba).
 - Clases: dragon, fairy, fighting, ghost, ice, rock
-- Fuentes: de donde vinieron las imagenes
+- Fuentes:
+    - Se realizo la descarga del dataset pero se reclasifico cada imagen de los pokemons para generar una nueva clasificacion en base a sus tipos usando la Poke API.
+    - https://www.kaggle.com/datasets/lantian773030/pokemonclassification?resource=download
+
 
 ## Resultados
 Mejor accuracy obtenido: 90.67%
